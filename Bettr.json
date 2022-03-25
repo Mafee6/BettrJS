@@ -1,0 +1,8 @@
+{
+    "packages": [
+        {
+            "type": "local",
+            "path": "ColorConsole"
+        }
+    ]
+}
