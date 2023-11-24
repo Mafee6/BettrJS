@@ -8,7 +8,7 @@ const colorconsole = {
         options: {}
     },
 
-    log: (colorstring) => {
+    log: colorstring => {
         const parseColorString = (colorstring) => {
             return colorstring.match(/(?<=\[)(.*?)(?=\])/g)
                   .map(x => `[${x}]`).map(c => {
